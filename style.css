@@ -4,6 +4,23 @@
 */
 :root {
   --anispeed: 10s;
+  --color: black;
+}
+
+@media (prefers-reduced-motion) {
+  :root {
+    --anispeed: 22s;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color: white;
+  }
+
+  body {
+    background-color: black;
+  }
 }
 
 body {
@@ -16,7 +33,7 @@ body {
 .wrapper {
   height: 75vh;
   padding: 2rem;
-  outline: 1px solid black;
+  outline: 1px solid var(--color);
   margin: 3rem;
 }
 
@@ -36,7 +53,7 @@ body {
 }
 
 .holder .circle:nth-child(1) {
-  background: black;
+  background: var(--color);
   border-bottom: none;
   border-radius: 25px 25px 0 0;
   width: 25px;
@@ -63,7 +80,7 @@ body {
   }
 }
 .holder .circle:nth-child(2) {
-  border: 13px solid black;
+  border: 13px solid var(--color);
   border-bottom: none;
   border-radius: 31px 31px 0 0;
   width: 31px;
@@ -90,7 +107,7 @@ body {
   }
 }
 .holder .circle:nth-child(3) {
-  border: 13px solid black;
+  border: 13px solid var(--color);
   border-bottom: none;
   border-radius: 62px 62px 0 0;
   width: 62px;
@@ -117,7 +134,7 @@ body {
   }
 }
 .holder .circle:nth-child(4) {
-  border: 13px solid black;
+  border: 13px solid var(--color);
   border-bottom: none;
   border-radius: 93px 93px 0 0;
   width: 93px;
@@ -144,7 +161,7 @@ body {
   }
 }
 .holder .circle:nth-child(5) {
-  border: 13px solid black;
+  border: 13px solid var(--color);
   border-bottom: none;
   border-radius: 124px 124px 0 0;
   width: 124px;
@@ -171,7 +188,7 @@ body {
   }
 }
 .holder .circle:nth-child(6) {
-  border: 13px solid black;
+  border: 13px solid var(--color);
   border-bottom: none;
   border-radius: 155px 155px 0 0;
   width: 155px;
@@ -198,7 +215,7 @@ body {
   }
 }
 .holder .circle:nth-child(7) {
-  border: 13px solid black;
+  border: 13px solid var(--color);
   border-bottom: none;
   border-radius: 186px 186px 0 0;
   width: 186px;
@@ -225,7 +242,7 @@ body {
   }
 }
 .holder .circle:nth-child(8) {
-  border: 13px solid black;
+  border: 13px solid var(--color);
   border-bottom: none;
   border-radius: 217px 217px 0 0;
   width: 217px;
@@ -252,7 +269,7 @@ body {
   }
 }
 .holder .circle:nth-child(9) {
-  border: 13px solid black;
+  border: 13px solid var(--color);
   border-bottom: none;
   border-radius: 248px 248px 0 0;
   width: 248px;
@@ -279,7 +296,7 @@ body {
   }
 }
 .holder .circle:nth-child(10) {
-  border: 13px solid black;
+  border: 13px solid var(--color);
   border-bottom: none;
   border-radius: 279px 279px 0 0;
   width: 279px;
@@ -306,7 +323,7 @@ body {
   }
 }
 .holder .circle:nth-child(11) {
-  border: 13px solid black;
+  border: 13px solid var(--color);
   border-bottom: none;
   border-radius: 310px 310px 0 0;
   width: 310px;
@@ -333,7 +350,7 @@ body {
   }
 }
 .holder .circle:nth-child(12) {
-  border: 13px solid black;
+  border: 13px solid var(--color);
   border-bottom: none;
   border-radius: 341px 341px 0 0;
   width: 341px;
@@ -360,7 +377,7 @@ body {
   }
 }
 .holder .circle:nth-child(13) {
-  border: 13px solid black;
+  border: 13px solid var(--color);
   border-bottom: none;
   border-radius: 372px 372px 0 0;
   width: 372px;
@@ -387,7 +404,7 @@ body {
   }
 }
 .holder .circle:nth-child(14) {
-  border: 13px solid black;
+  border: 13px solid var(--color);
   border-bottom: none;
   border-radius: 403px 403px 0 0;
   width: 403px;
@@ -414,7 +431,7 @@ body {
   }
 }
 .holder .circle:nth-child(15) {
-  border: 13px solid black;
+  border: 13px solid var(--color);
   border-bottom: none;
   border-radius: 434px 434px 0 0;
   width: 434px;
@@ -441,7 +458,7 @@ body {
   }
 }
 .holder .circle:nth-child(16) {
-  border: 13px solid black;
+  border: 13px solid var(--color);
   border-bottom: none;
   border-radius: 465px 465px 0 0;
   width: 465px;
